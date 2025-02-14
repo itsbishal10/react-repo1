@@ -1,10 +1,12 @@
 import React from 'react'
+import Login from './components/auth/Login'
 
 const App = () => {
   return (
-    <div>
-      This is the App component
-    </div>
+
+    <>
+      <Login />
+    </>
   )
 }
 
